@@ -1,5 +1,42 @@
 ## Version History
 
+#### 20150601
+
+* python-build: Add PyPy 2.6.0
+* python-build: Add PyPy 2.5.1 portable
+* python-build: Add CPython 3.5.0 beta releases; 3.5.0b1 and 3.5.0b2
+* python-build: Removed CPython 3.5.0 alpha releases
+* python-build: Fix inverted condition for `--altinstall` of ensurepip (#255)
+* python-build: Skip installing `setuptools` by `ez_setup.py` explicitly (fixes #381)
+* python-build: Import changes from ruby-build v20150519
+
+#### 20150524
+
+* pyenv: Improve `pyenv version`, if there is one missing (#290)
+* pyenv: Improve pip-rehash to handle versions in command, like `pip2` and `pip3.4` (#368)
+* python-build: Add CPython release; 2.7.10 (#380)
+* python-build: Add Miniconda/Miniconda3 3.9.1 and Anaconda/Anaconda3 2.2.0 (#375, #376)
+
+#### 20150504
+
+* python-build: Add Jython 2.7.0
+* python-build: Add CPython alpha release; 3.5.0a4
+* python-build: Add CPython 3.1, 3.1.1, and 3.1.2
+* python-build: Fix pip version to 1.5.6 for CPython 3.1.x (#351)
+
+#### 20150326
+
+* python-build: Add Portable PyPy binaries from https://github.com/squeaky-pl/portable-pypy (#329)
+* python-build: Add CPython alpha release; 3.5.0a2 (#328)
+* python-build: Add pypy-2.5.1 (fixes #338)
+* pyenv: Import recent changes from rbenv 4d72eefffc548081f6eee2e54d3b9116b9f9ee8e
+
+#### 20150226
+
+* python-build: Add CPython release; 3.4.3 (#323)
+* python-build: Add CPython alpha release; 3.5.0a1 (#324)
+* python-build: Add Miniconda/Miniconda3 3.8.3 (#318)
+
 #### 20150204
 
 * python-build: Add PyPy 2.5.0 release (#311)
@@ -217,7 +254,7 @@
 
 #### 0.4.0-20130726
 
-* pyenv: Fix minor issue of variable scope in `pyenv versions` 
+* pyenv: Fix minor issue of variable scope in `pyenv versions`
 * python-build: Update base version to ruby-build v20130628
 * python-build: Use brew managed OpenSSL and GNU Readline if they are available
 * python-build: Fix build of CPython 3.3+ on OS X (#29)
